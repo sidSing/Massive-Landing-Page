@@ -551,7 +551,7 @@ footer h3 {
 #toggle {
   width: 10rem;
   height: 10rem;
-  z-index: 100000000000000000;
+  z-index: 1000000000000000000000;
   position: fixed;
   top: 0rem;
   right: 0rem;
@@ -561,9 +561,10 @@ footer h3 {
 
 .show-toggle {
   position: fixed;
-  top: 1rem;
-  right: 1rem;
+  top: 2rem;
+  right: 2rem;
   z-index: 10000000000;
+  opacity: 0;
   transition: all 0.2s ease-in;
 }
 
